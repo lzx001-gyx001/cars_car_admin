@@ -1,0 +1,27 @@
+
+//折叠菜单border
+.el-menu{
+    border-right: none!important;
+}
+// 子菜单对齐
+.el-menu-item{
+    padding-left: 51px!important;
+}
+//子菜单选中颜色
+.el-menu-item.is-active{
+    background-color: rgba($color:#ca6c74e6, $alpha: .5)!important;
+
+    
+}
+//父菜单选中颜色
+.is-active{
+    & .el-submenu__title{
+        background-color: rgb(90, 47, 47) !important;
+    }
+   
+}
+
+//菜单折叠后hover后弹出部分的padding
+.el-menu--popup{
+    padding: 0;
+}
